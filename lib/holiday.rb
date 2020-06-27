@@ -65,7 +65,6 @@ def all_supplies_in_holidays(holiday_hash)
         original_season.capitalize!
       end
     season = season.join()
-    holiday.each do |original_holiday|
     holiday = holiday.to_s
     holiday = holiday.split
       holiday.each do |original_holiday|
