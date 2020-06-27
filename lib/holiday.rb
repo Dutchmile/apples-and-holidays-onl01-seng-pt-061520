@@ -74,4 +74,5 @@ def all_holidays_with_bbq(holiday_hash)
       holiday_sub_hash.collect do |holiday_name, supply_array|
         "#{holiday_name}"
       end
+      end
 end
